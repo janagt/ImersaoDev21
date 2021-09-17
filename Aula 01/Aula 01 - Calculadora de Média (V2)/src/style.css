@@ -1,0 +1,88 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  min-height: 400px;
+  background-color: #f2f3f4;
+  font-size: 16px;
+  line-height: 20px;
+  background-image: url('https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/diploma-1024.png');
+  background-size: 72vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#0F1830;
+  margin: 0 0 5px;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.page-subtitle {
+  color: #0F1830;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #b6b8bc;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.imer-logo {
+  font-weight: 100;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom:20vh;
+}
+.imer-background{
+  background: #ffe37e;
+  display: inline-block;
+  padding: 4px;
+  font-weight: 700;
+}
+
+label {
+  font-weight: 600;
+  padding:20px 0 10px;
+  text-transform: Capitalize;
+  font-size: 14px;
+  daisplay: block;
+}
+
+input {
+  background: transparent;
+  color: black;
+  border: 0;
+  padding: 10px;
+  margin: 5px 0;
+  text-align:center;
+  width: 70px;
+}
+
+button {
+  background: #0F1830;
+  color: white;
+  margin: 20px;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+button:hover {
+  background: #2b45ce;
+}
