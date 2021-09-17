@@ -1,0 +1,88 @@
+body {
+  font-family: "Heebo", monospace;
+  min-height: 600px;
+  background-color: #f3f3f5;
+  font-size: 16px;
+  line-height: 20px;
+  color: #101731;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #2b45ce;
+  margin: 0 0 5px;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+}
+
+.page-subtitle {
+  margin-top: 16px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 0px 12px 22px 12px;
+  padding: 12px 0;
+  border-radius: 5px;
+  border: 0px solid #b7b8bd;
+  text-align: center;
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #b7b8bd;
+  border: 0px solid;
+  text-weight: 600;
+}
+
+button:hover {
+  background: #2b45ce;
+  color: white;
+}
+
+.resultado {
+  color: #101731;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.imer-logo {
+  font-weight: 100;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 18vh;
+}
+
+.imer-background {
+  background: #40c4ff;
+  display: inline-block;
+  padding: 4px;
+  font-weight: 700;
+}
